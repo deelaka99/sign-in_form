@@ -8,5 +8,51 @@ body
 .header
 {
     width: 100%;
-    background-color: blueviolet;    
+    background-color: blueviolet;
+    padding: 1%;
+    display: flex;    
+}
+
+.leftside
+{
+    padding: 4px;
+    width: 60%;
+}
+
+.rightside
+{
+    padding: 4px;
+    width: 40%;
+}
+
+.rightside a
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 20px;
+}
+
+.login_container
+{
+    margin: 0px;
+    width: 100%;
+    background-image: url("../1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.loginfrm
+{
+    width: 500px;
+    background-color: black;
+    padding: 30px;
+    justify-content: center;
+    border: solid 3px white;
+    border-radius: 10px;
+    opacity: 80%;
 }
