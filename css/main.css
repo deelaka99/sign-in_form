@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+body
+{
+    margin: 0px;
+}
+
+.header
+{
+    width: 100%;
+    background-color: blueviolet;    
+}
